@@ -28,12 +28,15 @@ Also, many changes may affect the images:
 
 # Usage
 To test the program, run the whole notebook on the desired image. \
-To switch the image, you can edit the following string on the very first cell. 
-Be sure that it is contained in the `img` folder.
+To switch the image, you can edit the following string on the very first cell of code. 
 ``` 
-src_name = 'TESI00'
+img_path = 'img/TESI00.BMP'
 ```
 Then, results may be found in the `out` folder.
+To edit the output folder, modify the second cell of code:
+``` 
+OUT_DIR = 'out/'
+```
 # Example
 ### Input image:
 ![Source Image](https://i.imgur.com/HVmzU5l.png)
